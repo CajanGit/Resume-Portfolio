@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Resume{% endblock %}
+{% block content %}
+<h1 align="center"> Resume </h1>
+<embed align="center" src="{{ url_for('static', filename = 'resume.pdf') }}" width = "1000" height = "1000" type="application/pdf">
+{% endblock %}
